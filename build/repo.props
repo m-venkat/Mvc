@@ -1,8 +1,23 @@
 <Project>
   <ItemGroup>
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Abstractions.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.ApiExplorer.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Core.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Cors.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.DataAnnotations.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Formatters.Json.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Formatters.Xml.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.IntegrationTests\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Localization.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Performance\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Razor.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.RazorPages.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.TagHelpers.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Test\*.csproj" />
     <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.TestCommon\*.csproj" />
     <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.TestDiagnosticListener\*.csproj" />
-    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.Performance\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.ViewFeatures.Test\*.csproj" />
+    <ExcludeFromTest Include="$(RepositoryRoot)test\Microsoft.AspNetCore.Mvc.WebApiCompatShimTest\*.csproj" />
     <ExcludeSolutions Include="$(RepositoryRoot)Mvc.*Fun.sln" />
   </ItemGroup>
 </Project>
