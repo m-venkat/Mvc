@@ -35,7 +35,7 @@ namespace Microsoft.AspNetCore.Mvc.FunctionalTests
 
             // Assert
             // Even though the action threw an exception, we don't get to see it if your return type
-            // is declared as void and it was after an 'await'.
+            // is declared as void and it was after an 'await'
             Assert.Equal(0, responseBody.Length);
         }
 
